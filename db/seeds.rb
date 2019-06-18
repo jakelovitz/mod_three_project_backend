@@ -1,21 +1,32 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+sam = Person.create(name: "Sam", occupation: "Skier")
 
-Person.create(name: "Sam", occupation: "Skier")
-
-Person.create(name: "Sarah", occupation: "Officer of the Law")
+sarah = Person.create(name: "Sarah", occupation: "Officer of the Law")
 
 
 
-Wound.create(name: "broken leg", description: "the fracturing of either the femur, the patella, the tibia, or the fibula into two or more pieces.", location: "right leg", img_url: "https://s3.studylib.net/store/data/007203711_1-0477a3e4ca2e9f71a512e22c990b997f.png", person_id: 1)
+Wound.create(name: "right arm", description: "right arm description", location: "right arm", img_url: "https://i.imgur.com/2FlwKX3.png", person_id: sam.id)
 
-Wound.create(name: "dislocated shoulder", description: "when the arm bone loses contact with the socket of the shoulder blade", img_url: "https://s3.studylib.net/store/data/007203711_1-0477a3e4ca2e9f71a512e22c990b997f.png", location: "right arm", person_id: 1)
+Wound.create(name: "left arm", description: "left arm description", location: "left arm", img_url: "https://i.imgur.com/f5prGHs.png", person_id: sam.id)
 
-Wound.create(name: "gunshot wound", description: "when you get shot", img_url: "https://s3.studylib.net/store/data/007203711_1-0477a3e4ca2e9f71a512e22c990b997f.png", location: "left leg", person_id: 2)
+Wound.create(name: "right leg", description: "right leg description", location: "right leg", img_url: "https://i.imgur.com/VRUFDLE.png", person_id: sam.id)
 
-Wound.create(name: "severed thumb", description: "when you accidentally cut your thumb off", img_url: "https://s3.studylib.net/store/data/007203711_1-0477a3e4ca2e9f71a512e22c990b997f.png", location: "left arm", person_id: 2)
+Wound.create(name: "left leg", description: "left leg description", location: "left leg", img_url: "https://i.imgur.com/GDOCNyl.png", person_id: sam.id)
+
+Wound.create(name: "body", description: "body description", location: "body", img_url: "https://i.imgur.com/5RQ9MEO.png", person_id: sam.id)
+
+Wound.create(name: "head", description: "head description", location: "head", img_url: "https://i.imgur.com/SA2g6vW.png", person_id: sam.id)
+
+
+
+
+Wound.create(name: "right arm", description: "right arm description", location: "right arm", img_url: "https://i.imgur.com/2FlwKX3.png", person_id: sarah.id)
+
+Wound.create(name: "left arm", description: "left arm description", location: "left arm", img_url: "https://i.imgur.com/f5prGHs.png", person_id: sarah.id)
+
+Wound.create(name: "right leg", description: "right leg description", location: "right leg", img_url: "https://i.imgur.com/VRUFDLE.png", person_id: sarah.id)
+
+Wound.create(name: "left leg", description: "left leg description", location: "left leg", img_url: "https://i.imgur.com/GDOCNyl.png", person_id: sarah.id)
+
+Wound.create(name: "body", description: "body description", location: "body", img_url: "https://i.imgur.com/5RQ9MEO.png", person_id: sarah.id)
+
+Wound.create(name: "head", description: "head description", location: "head", img_url: "https://i.imgur.com/SA2g6vW.png", person_id: sarah.id)
