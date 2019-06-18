@@ -4,6 +4,7 @@ class CreateWounds < ActiveRecord::Migration[5.2]
       t.string :name
       t.text :description
       t.string :img_url
+      t.string :location
       t.integer :person_id
       t.timestamps
     end

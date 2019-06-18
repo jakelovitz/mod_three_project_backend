@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 2019_06_18_145914) do
     t.string "name"
     t.text "description"
     t.string "img_url"
+    t.string "location"
     t.integer "person_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
