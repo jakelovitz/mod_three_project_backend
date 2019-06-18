@@ -1,0 +1,15 @@
+Person.create(name: "Sam", img_url: "https://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2F97f6cefe-1b1c-11e8-95c3-8b5a448e6e58.jpg?crop=5618%2C3160%2C71%2C472&resize=685", occupation: "Skier")
+
+ApiV1Person.create(name: "Sarah", img_url: "https://media-public.canva.com/MAC9sg-r17c/1/thumbnail_large.jpg", occupation: "Officer of the Law")
+
+ApiV1Person.create(name: "Larry", img_url: "https://images-na.ssl-images-amazon.com/images/I/71VIgRo2QwL._SX466_.jpg", occupation: "Lumberjack")
+
+
+
+ApiV1Wound.create(name: "broken leg", description: "the fracturing of either the femur, the patella, the tibia, or the fibula into two or more pieces.", person_id: 1)
+
+ApiV1Wound.create(name: "dislocated shoulder", description: "when the arm bone loses contact with the socket of the shoulder blade", person_id: 1)
+
+ApiV1Wound.create(name: "gunshot wound", description: "when you get shot", person_id: 2)
+
+ApiV1Wound.create(name: "severed thumb", description: "when you accidentally cut your thumb off", person_id: 3)
