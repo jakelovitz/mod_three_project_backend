@@ -32,7 +32,7 @@ sam_head = Wound.create!(name: "arrow in neck", description: "the casuility was 
 #////////
 
 #sam_right_arm aninmal mawing
-Treatment.create!(action: "check for type of bleeding, if arterial apply tourniquet, and/or clean wound", order: 1, wound_id: sarah_right_arm.id)
+Treatment.create!(action: "check for type of bleeding, if arterial apply tourniquet, and/or clean wound", order: 1, wound_id: sam_right_arm.id)
 Treatment.create!(action: "apply steralizing dressing", order: 2, wound_id: sam_right_arm.id)
 Treatment.create!(action: "wrap in bandage", order: 3, wound_id: sam_right_arm.id)
 
