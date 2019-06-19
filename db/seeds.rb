@@ -21,9 +21,9 @@ sam_right_leg = Wound.create!(name: "thermal burn", description: "the casuility 
 
 sam_left_leg = Wound.create!(name: "broken leg with exposed bone", description: "the casuility fell from a substantial height and has an exposed bone coming out of their knee", location: "left leg", img_url: "https://i.imgur.com/GDOCNyl.png", person_id: sam.id)
 
-sam_body = Wound.create!(name: "drowning", description: "the casuility got thrown into the water and appears unconscious", location: "head", img_url: "https://i.imgur.com/SA2g6vW.png", person_id: sam.id)
+sam_body = Wound.create!(name: "drowning", description: "the casuility got thrown into the water and appears unconscious", location: "body", img_url: "https://i.imgur.com/SA2g6vW.png", person_id: sam.id)
 
-sam_head = Wound.create!(name: "arrow in neck", description: "the casuility was hit on accident by hunters", location: "body", img_url: "https://i.imgur.com/5RQ9MEO.png", person_id: sam.id)
+sam_head = Wound.create!(name: "arrow in neck", description: "the casuility was hit on accident by hunters", location: "head", img_url: "https://i.imgur.com/5RQ9MEO.png", person_id: sam.id)
 
 
 #////sam.wounds.treatments
@@ -156,8 +156,8 @@ Treatment.create!(action: "tape/tie down 3 sides of the bandage to allow for eme
 Treatment.create!(action: "cover wound loosly to stop debris", order: 5, wound_id: sarah_body.id)
 
 
-#sarah_head concussion
-Treatment.create!(action: "easy the casuility into a semi sitting postion", order: 1 , wound_id: sarah_head.id)
+#sarah_head fractured skull
+Treatment.create!(action: "ease the casuility into a semi sitting postion", order: 1 , wound_id: sarah_head.id)
 Treatment.create!(action: "support their neck and head", order: 2, wound_id: sarah_head.id)
 Treatment.create!(action: "apply dressing to the head", order: 3, wound_id: sarah_head.id)
 Treatment.create!(action: "stablize the head and neck by applying a makeshift brace", order: 4, wound_id: sarah_head.id)
