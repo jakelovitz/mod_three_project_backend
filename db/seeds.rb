@@ -23,7 +23,7 @@ sam_left_leg = Wound.create!(name: "broken leg with exposed bone", description: 
 
 sam_body = Wound.create!(name: "drowning", description: "the casuility got thrown into the water and appears unconscious", location: "body", img_url: "https://i.imgur.com/SA2g6vW.png", person_id: sam.id)
 
-sam_head = Wound.create!(name: "arrow in neck", description: "the casuility was hit on accident by hunters", location: "head", img_url: "https://i.imgur.com/5RQ9MEO.png", person_id: sam.id)
+sam_head = Wound.create!(name: "arrow in neck", description: "the casuility was hit on accident by a hunter", location: "head", img_url: "https://i.imgur.com/5RQ9MEO.png", person_id: sam.id)
 
 
 #////sam.wounds.treatments
@@ -112,7 +112,7 @@ sarah_left_leg = Wound.create!(name: "leg fracture", description: "The leg is se
 
 sarah_body = Wound.create!(name: "collasped lung", description: "A gunshot piecered the chest and the casuility is gasping for air", location: "body", img_url: "https://i.imgur.com/5RQ9MEO.png", person_id: sarah.id)
 
-sarah_head = Wound.create!(name: "fractured skull", description: "a several tackle caused the casuility to be brought to the ground with a great force hitting their head, they seem to be alive but unconsciousness and are bleeding they are also convuling on the ground", location: "head", img_url: "https://i.imgur.com/SA2g6vW.png", person_id: sarah.id)
+sarah_head = Wound.create!(name: "fractured skull", description: "a brute force tackle caused the casuility to be brought to the ground with a great force hitting their head, they seem to be alive but unconsciousness and are bleeding they are also convuling", location: "head", img_url: "https://i.imgur.com/SA2g6vW.png", person_id: sarah.id)
 
 
 
