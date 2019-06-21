@@ -122,7 +122,7 @@ sarah_head = Wound.create!(name: "FRACTURED SKULL", description: "A brute force 
 #////////
 
 #sarah_right_arm gunshot
-Treatment.create!(action: "Apply tourniquet up to the pocket of the groin and tighten till you can't fit the tip of a finger in", order: 1, wound_id: sarah_right_arm.id)
+Treatment.create!(action: "Apply tourniquet up to the pocket of the armpit and tighten till you can't fit the tip of a finger in", order: 1, wound_id: sarah_right_arm.id)
 Treatment.create!(action: "Apply gauze/dressing", order: 2, wound_id: sarah_right_arm.id)
 Treatment.create!(action: "Wrap bandage around", order: 3, wound_id: sarah_right_arm.id)
 Treatment.create!(action: "Check rest of body for wounds", order: 4, wound_id: sarah_right_arm.id)
@@ -146,7 +146,7 @@ Treatment.create!(action: "gather splint materials ", order: 1, wound_id: sarah_
 Treatment.create!(action: "pad the splint", order: 2 , wound_id: sarah_left_leg.id)
 Treatment.create!(action: "place splint on each side of fracture", order: 3, wound_id: sarah_left_leg.id)
 Treatment.create!(action: "tie the split so the leg does not move but there is still ciruclation", order: 4, wound_id: sarah_left_leg.id)
-Treatment.create!(action: "make adjustments as nesscary to insure the bone is moving as little as possible", order: 5, wound_id: sarah_left_leg.id)
+Treatment.create!(action: "make adjustments as nesscary to insure the interal leg is moving as little as possible", order: 5, wound_id: sarah_left_leg.id)
 
 #sarah_body collasped lung
 Treatment.create!(action: "expose the wound", order: 1 , wound_id: sarah_body.id)
