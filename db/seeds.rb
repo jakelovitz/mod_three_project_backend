@@ -135,30 +135,30 @@ Treatment.create!(action: "Apply steralizing banadge", order: 2, wound_id: sarah
 Treatment.create!(action: "Check for other wounds", order: 3, wound_id: sarah_left_arm.id)
 
 #sarah_right_leg multiple gunshots
-Treatment.create!(action: "apply tourniquet up to the pocket of the groin and tighten till you can't fit the tip of a finger in", order: 1 , wound_id: sarah_right_leg.id)
-Treatment.create!(action: "apply guaze/dressing", order: 2, wound_id: sarah_right_leg.id)
-Treatment.create!(action: "wrap bandage around wound", order: 3, wound_id: sarah_right_leg.id)
-Treatment.create!(action: "check for exit wounds ", order: 4, wound_id: sarah_right_leg.id)
+Treatment.create!(action: "Apply tourniquet up to the pocket of the groin and tighten till you can't fit the tip of a finger in", order: 1 , wound_id: sarah_right_leg.id)
+Treatment.create!(action: "Apply guaze/dressing", order: 2, wound_id: sarah_right_leg.id)
+Treatment.create!(action: "Wrap bandage around wound", order: 3, wound_id: sarah_right_leg.id)
+Treatment.create!(action: "Check for exit wounds ", order: 4, wound_id: sarah_right_leg.id)
 
 
 #sarah_left_leg fracture
-Treatment.create!(action: "gather splint materials ", order: 1, wound_id: sarah_left_leg.id)
-Treatment.create!(action: "pad the splint", order: 2 , wound_id: sarah_left_leg.id)
-Treatment.create!(action: "place splint on each side of fracture", order: 3, wound_id: sarah_left_leg.id)
-Treatment.create!(action: "tie the split so the leg does not move but there is still ciruclation", order: 4, wound_id: sarah_left_leg.id)
-Treatment.create!(action: "make adjustments as nesscary to insure the interal leg is moving as little as possible", order: 5, wound_id: sarah_left_leg.id)
+Treatment.create!(action: "Gather splint materials ", order: 1, wound_id: sarah_left_leg.id)
+Treatment.create!(action: "Pad the splint", order: 2 , wound_id: sarah_left_leg.id)
+Treatment.create!(action: "Place splint on each side of fracture", order: 3, wound_id: sarah_left_leg.id)
+Treatment.create!(action: "Tie the split so the leg does not move but there is still ciruclation", order: 4, wound_id: sarah_left_leg.id)
+Treatment.create!(action: "Make adjustments as nesscary to insure the interal leg is moving as little as possible", order: 5, wound_id: sarah_left_leg.id)
 
 #sarah_body collasped lung
-Treatment.create!(action: "expose the wound", order: 1 , wound_id: sarah_body.id)
-Treatment.create!(action: "apply occlusive/plastic bandage w/2 inches extention from wound", order: 2, wound_id: sarah_body.id)
-Treatment.create!(action: "place bandage on exhale", order: 3, wound_id: sarah_body.id)
-Treatment.create!(action: "tape/tie down 3 sides of the bandage to allow for emergency air to be exhaled ", order: 4, wound_id: sarah_body.id)
-Treatment.create!(action: "cover wound loosly to stop debris", order: 5, wound_id: sarah_body.id)
+Treatment.create!(action: "Expose the wound", order: 1 , wound_id: sarah_body.id)
+Treatment.create!(action: "Apply occlusive/plastic bandage w/2 inches extention from wound", order: 2, wound_id: sarah_body.id)
+Treatment.create!(action: "Place bandage on exhale", order: 3, wound_id: sarah_body.id)
+Treatment.create!(action: "Tape/tie down 3 sides of the bandage to allow for emergency air to be exhaled ", order: 4, wound_id: sarah_body.id)
+Treatment.create!(action: "Cover wound loosly to stop debris", order: 5, wound_id: sarah_body.id)
 
 
 #sarah_head fractured skull
-Treatment.create!(action: "ease the casuility into a semi sitting postion", order: 1 , wound_id: sarah_head.id)
-Treatment.create!(action: "support their neck and head", order: 2, wound_id: sarah_head.id)
-Treatment.create!(action: "apply dressing to the head", order: 3, wound_id: sarah_head.id)
-Treatment.create!(action: "stablize the head and neck by applying a makeshift brace", order: 4, wound_id: sarah_head.id)
-Treatment.create!(action: "wrap the brace in a bandage covering the wound", order: 5, wound_id: sarah_head.id)
+Treatment.create!(action: "Ease the casuility into a semi sitting postion", order: 1 , wound_id: sarah_head.id)
+Treatment.create!(action: "Support their neck and head", order: 2, wound_id: sarah_head.id)
+Treatment.create!(action: "Apply dressing to the head", order: 3, wound_id: sarah_head.id)
+Treatment.create!(action: "Stablize the head and neck by applying a makeshift brace", order: 4, wound_id: sarah_head.id)
+Treatment.create!(action: "Wrap the brace in a bandage covering the wound", order: 5, wound_id: sarah_head.id)
