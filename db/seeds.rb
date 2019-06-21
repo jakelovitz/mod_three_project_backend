@@ -1,7 +1,23 @@
 
 # https://www.marines.mil/Portals/59/Publications/MCRP%203-40A.9%20formerly%20MCRP%203-02G.pdf?ver=2018-03-13-082229-160
 
+#////////man
 
+# right arm - https://i.imgur.com/dVo3Vtp.png
+# left arm - https://i.imgur.com/5dgSHXV.png
+# right leg - https://i.imgur.com/vp0U9Me.png
+# left leg - https://i.imgur.com/SsOKixC.png
+# body - https://i.imgur.com/DfcKZYm.png
+# head - https://i.imgur.com/B29RNdJ.png
+
+#////////woman
+#
+# right arm - https://i.imgur.com/EtwB8AO.png
+# left arm - https://i.imgur.com/bYdWIC7.png
+# right leg - https://i.imgur.com/Ri61gC9.png
+# left leg - https://i.imgur.com/stqvRAR.png
+# body - https://i.imgur.com/3v5PClD.png
+# head - https://i.imgur.com/UaRY8DC.png
 
 
 sam = Person.create!(name: "Sam", occupation: "Hiker")
@@ -13,17 +29,17 @@ sam = Person.create!(name: "Sam", occupation: "Hiker")
 #////////
 
 
-sam_right_arm = Wound.create!(name: "ANINMAL MAWLING", description: "A wild animal gnashed at the casuility's arm causing ", location: "Right Arm", img_url: "https://i.imgur.com/2FlwKX3.png", person_id: sam.id)
+sam_right_arm = Wound.create!(name: "ANINMAL MAWLING", description: "A wild animal gnashed at the casuility's arm causing ", location: "Right Arm", img_url: "https://i.imgur.com/dVo3Vtp.png", person_id: sam.id)
 
-sam_left_arm = Wound.create!(name: "CRUSHED HAND", description: "The casuility has had their hand smashed by a boulder, it is swollen and bleeding", location: "Left Arm", img_url: "https://i.imgur.com/f5prGHs.png", person_id: sam.id)
+sam_left_arm = Wound.create!(name: "CRUSHED HAND", description: "The casuility has had their hand smashed by a boulder, it is swollen and bleeding", location: "Left Arm", img_url: "https://i.imgur.com/5dgSHXV.png", person_id: sam.id)
 
-sam_right_leg = Wound.create!(name: "THERMAL BURN", description: "The casuility fell onto a fire pit and was briefly set on fire", location: "Right Leg", img_url: "https://i.imgur.com/VRUFDLE.png", person_id: sam.id)
+sam_right_leg = Wound.create!(name: "THERMAL BURN", description: "The casuility fell onto a fire pit and was briefly set on fire", location: "Right Leg", img_url: "https://i.imgur.com/vp0U9Me.png", person_id: sam.id)
 
-sam_left_leg = Wound.create!(name: "BROKEN LEG WITH EXPOSED BONE", description: "The casuility fell from a substantial height and has an exposed bone coming out of their knee", location: "Left Leg", img_url: "https://i.imgur.com/GDOCNyl.png", person_id: sam.id)
+sam_left_leg = Wound.create!(name: "BROKEN LEG WITH EXPOSED BONE", description: "The casuility fell from a substantial height and has an exposed bone coming out of their knee", location: "Left Leg", img_url: "https://i.imgur.com/SsOKixC.png", person_id: sam.id)
 
-sam_body = Wound.create!(name: "DROWNING", description: "The casuility got thrown into the water and appears unconscious", location: "Body", img_url: "https://i.imgur.com/SA2g6vW.png", person_id: sam.id)
+sam_body = Wound.create!(name: "DROWNING", description: "The casuility got thrown into the water and appears unconscious", location: "Body", img_url: "https://i.imgur.com/DfcKZYm.png", person_id: sam.id)
 
-sam_head = Wound.create!(name: "ARROW IN THE NECK", description: "The casuility was hit on accident by a hunter", location: "Head", img_url: "https://i.imgur.com/5RQ9MEO.png", person_id: sam.id)
+sam_head = Wound.create!(name: "ARROW IN THE NECK", description: "The casuility was hit on accident by a hunter", location: "Head", img_url: "https://i.imgur.com/B29RNdJ.png", person_id: sam.id)
 
 
 #////sam.wounds.treatments
@@ -101,18 +117,25 @@ sarah = Person.create!(name: "Sarah", occupation: "Officer of the Law")
 #////////
 
 
+#right arm - https://i.imgur.com/EtwB8AO.png
+# left arm - https://i.imgur.com/bYdWIC7.png
+# right leg - https://i.imgur.com/Ri61gC9.png
+# left leg - https://i.imgur.com/stqvRAR.png
+# body - https://i.imgur.com/3v5PClD.png
+# head - https://i.imgur.com/UaRY8DC.png
 
-sarah_right_arm = Wound.create!(name: "GUNSHOT", description: "The casuility's arm is limp and blood is starting to soak throw their clothing at a rapid rate", location: "Right Arm", img_url: "https://i.imgur.com/2FlwKX3.png", person_id: sarah.id)
 
-sarah_left_arm = Wound.create!(name: "STABBING LACERATION/PENETRATION", description: "The casuility has several deep laceration and a direct point of where a blade was stabbed", location: "Left Arm", img_url: "https://i.imgur.com/f5prGHs.png", person_id: sarah.id)
+sarah_right_arm = Wound.create!(name: "GUNSHOT", description: "The casuility's arm is limp and blood is starting to soak throw their clothing at a rapid rate", location: "Right Arm", img_url: "https://i.imgur.com/EtwB8AO.png", person_id: sarah.id)
 
-sarah_right_leg = Wound.create!(name: "MULTIPLE GUN SHOTS", description: "The casuility was hit with consecutive gun fire", location: "Right Leg", img_url: "https://i.imgur.com/VRUFDLE.png", person_id: sarah.id)
+sarah_left_arm = Wound.create!(name: "STABBING LACERATION/PENETRATION", description: "The casuility has several deep laceration and a direct point of where a blade was stabbed", location: "Left Arm", img_url: "https://i.imgur.com/bYdWIC7.png", person_id: sarah.id)
 
-sarah_left_leg = Wound.create!(name: "LEG FRACTURE", description: "The leg is semi mangled and bent at an unatural angle, no exposed bone", location: "Left Leg", img_url: "https://i.imgur.com/GDOCNyl.png", person_id: sarah.id)
+sarah_right_leg = Wound.create!(name: "MULTIPLE GUN SHOTS", description: "The casuility was hit with consecutive gun fire", location: "Right Leg", img_url: "https://i.imgur.com/Ri61gC9.png", person_id: sarah.id)
 
-sarah_body = Wound.create!(name: "COLLASPED LUNG", description: "A gunshot piecered the chest and the casuility is gasping for air", location: "Body", img_url: "https://i.imgur.com/5RQ9MEO.png", person_id: sarah.id)
+sarah_left_leg = Wound.create!(name: "LEG FRACTURE", description: "The leg is semi mangled and bent at an unatural angle, no exposed bone", location: "Left Leg", img_url: "https://i.imgur.com/stqvRAR.png", person_id: sarah.id)
 
-sarah_head = Wound.create!(name: "FRACTURED SKULL", description: "A brute force tackle caused the casuility to be brought to the ground with a great force hitting their head, they seem to be alive but unconsciousness and are bleeding they are also convuling", location: "Head", img_url: "https://i.imgur.com/SA2g6vW.png", person_id: sarah.id)
+sarah_body = Wound.create!(name: "COLLASPED LUNG", description: "A gunshot piecered the chest and the casuility is gasping for air", location: "Body", img_url: "https://i.imgur.com/3v5PClD.png", person_id: sarah.id)
+
+sarah_head = Wound.create!(name: "FRACTURED SKULL", description: "A brute force tackle caused the casuility to be brought to the ground with a great force hitting their head, they seem to be alive but unconsciousness and are bleeding they are also convuling", location: "Head", img_url: "https://i.imgur.com/UaRY8DC.png", person_id: sarah.id)
 
 
 
